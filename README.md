@@ -27,10 +27,15 @@ To contribute:
 1. **Fork the repository**: Click the 'Fork' button at the top right of this page to create a copy of this repository in your GitHub account.
 2. **Clone your fork**: Go to your GitHub account, open the forked repository, click on the 'Clone or download' button, and then click 'Copy to clipboard'. Open a terminal on your machine and run the following git command:
 where "url you just copied" is the url to this repository (your fork of this project).
-3. **Create a branch**: Navigate to the directory where you cloned it, and type git checkout command:
-4. **Make necessary changes and commit those changes**: Make changes to the files you cloned, and when you're done, don't forget to add these changes to your branch. You can do this using the following sequence of commands:
-5. **Push changes to GitHub**: Push your changes using the command `git push`.
-6. **Submit your changes for review**: If you go to your repository on GitHub, you’ll see a 'Compare & pull request' button. Click on it and you can submit your changes for review.
+4. git checkout -b your-new-branch-name
+5. **Create a branch**: Navigate to the directory where you cloned it, and type git checkout command:
+6. git add .
+git commit -m "A brief description of your changes"
+7. **Make necessary changes and commit those changes**: Make changes to the files you cloned, and when you're done, don't forget to add these changes to your branch. You can do this using the following sequence of commands:
+
+git push origin your-new-branch-name
+8. **Push changes to GitHub**: Push your changes using the command `git push`.
+9. **Submit your changes for review**: If you go to your repository on GitHub, you’ll see a 'Compare & pull request' button. Click on it and you can submit your changes for review.
 
 If you have something to add or improve, please make a pull request.
 
