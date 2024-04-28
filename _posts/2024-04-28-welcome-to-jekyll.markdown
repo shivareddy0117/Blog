@@ -1,30 +1,58 @@
 ---
-layout: post
-title:  "Welcome to Calculus for DataScientist!"
+layout: shiva
+title:  "Calculus for DataScientist: Understandin Limits"
 date:   2024-04-28 12:43:25 -0500
-categories: update
+categories: education calculus data-science
 parmalink: "Math-for-DataScientists"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Overview
 
-Jekyll requires blog post files to be named according to the following format:
+The concept of limit of a function is one of the fundamental ideas that distinguishes calculus from algebra and trigonometry.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Definition
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Informal Definition of Limit
 
-Jekyll also offers powerful support for code snippets:
+Let \( f(x) \) be defined on an open interval about \( $ x_0 $ \), _except possibly at_ \( $ x_0 $ \) itself. If \( f(x) \) gets arbitrarily close to \( L \) for all \( x \) sufficiently close to \( $ x_0 $ \), we say that \( f \) approaches the **limit** \( L \) as \( x \) approaches \( $ x_0 $ \), and we write
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+$$
+\lim_{x \to x_0} f(x) = L.
+$$
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Theorem 1
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Properties of Limits
+
+The following rules hold if ( $$ \lim_{x \to c} f(x) = L $$ ) and ( $$ \lim_{x \to c} g(x) = M $$ ) ( L and M real numbers).
+
+1. **Sum Rule**:
+   $$
+   \lim_{x \to c} [f(x) + g(x)] = L + M
+   $$
+
+2. **Difference Rule**:
+   $$
+   \lim_{x \to c} [f(x) - g(x)] = L - M
+   $$
+
+3. **Product Rule**:
+   $$
+   \lim_{x \to c} [f(x) \cdot g(x)] = L \cdot M
+   $$
+
+4. **Constant Multiple Rule**:
+   $$
+   \lim_{x \to c} k f(x) = kL \quad \text{(any number } k)
+   $$
+
+5. **Quotient Rule**:
+   $$
+   \lim_{x \to c} \frac{f(x)}{g(x)} = \frac{L}{M}, \quad M \neq 0
+   $$
+
+6. **Power Rule**:
+   If \( m \) and \( n \) are integers, then
+   $$
+   \lim_{x \to c} [f(x)]^{m/n} = L^{m/n},
+   $$
+   provided ($$ L^{m/n} $$) is a real number.

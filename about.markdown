@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
 
-**About Me**
 
 Hello! I’m Shiva, and I'm thrilled to welcome you to my blog where we dive deep into the fascinating world of Data Science. My journey into this field was kindled by a profound appreciation for mathematics, especially statistics and calculus. These disciplines are not just academic interests; they are the lenses through which I view the complex data puzzles that our world presents.
 
