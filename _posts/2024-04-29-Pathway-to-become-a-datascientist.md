@@ -1,5 +1,5 @@
 ---
-layout: "shiva"
+layout: "post"
 title: "Pathway-to-become-a-Data-Scientist"
 date: 2024-04-29 T15:36:58+
 categories: datascientist
